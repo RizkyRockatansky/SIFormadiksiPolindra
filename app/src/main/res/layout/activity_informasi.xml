@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".InformasiActivity">
+
+    <ImageView
+        android:layout_width="@dimen/logo_w_h"
+        android:layout_height="@dimen/logo_w_h"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/logosatu"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="PENGUMUMAN BIDIKMISI POLITEKNIK NEGERI INDRAMAYU"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/penerimaan2019"
+        android:layout_height="60dp"
+        android:background="@drawable/btnputih"
+        android:text="Penerimaan Beasiswa bidikmisi 2019"
+        android:gravity="left|center_vertical"
+
+        android:textColor="@color/bg_login"/>
+    <Button
+        android:layout_width="match_parent"
+        android:gravity="left|center_vertical"
+        android:id="@+id/BidikmisiTambahan"
+        android:background="@drawable/btnputih"
+        android:layout_height="60dp"
+        android:text="Pemgumuman penerima bidikmisi khusus tambahan tahun 2018"
+        android:textColor="@color/bg_login"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="left|center_vertical"
+        android:id="@+id/BidikmisiAlokasi"
+        android:background="@drawable/btnputih"
+        android:text="Pemgumuman bidikmisi alokasi khusus 2018"
+        android:textColor="@color/bg_login"/>
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/btnputih"
+        android:gravity="left|center_vertical"
+android:id="@+id/JalurMandiri2"
+        android:layout_height="60dp"
+        android:text="Pengumuman Penerima Bidikmisi Jalur Mandiri 2 Tahun Akademik 2018/2019
+"
+        android:textColor="@color/bg_login"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/btnputih"
+        android:layout_height="60dp"
+        android:gravity="left|center_vertical"
+        android:id="@+id/BidikmisiPMDK"
+        android:text="Pengumuman Penerima Bidikmisi Jalur Pmdk-pn Tahun Akademik 2018/2019
+"
+        android:textColor="@color/bg_login"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:gravity="left|center_vertical"
+        android:id="@+id/JalurMandiri1"
+        android:layout_height="60dp"
+        android:background="@drawable/btnputih"
+        android:text="Pengumuman Penerima Bidikmisi Jalur Mandiri Tahun Akademik 2018/2019
+"
+        android:textColor="@color/bg_login"/>
+</LinearLayout>
